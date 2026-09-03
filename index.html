@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>brooklyn</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <div class="container-fluid brooklyn-website">
+    <!-- arrow-up -->
+    <div class="arrow">
+      <a href="#home" class="go-up">
+        <i class="bi bi-arrow-up-circle-fill "></i>
+      </a>
+
+    </div>
+
+    <!-- header -->
+    <header class="header container-fluid m-0 p-0  d-flex align-items-center sticky-top ">
+
+      <div class="container d-flex justify-content-between align-items-center gap-lg-2">
+        <!-- logo -->
+        <nav class="navbar  ">
+          <div>
+            <a class="navbar-brand  " href="#">
+              <img src="assets/logo.png" alt="Logo" width="150" height="80"
+                class="d-inline-block rounded-circle p-0 m-0">
+
+            </a>
+          </div>
+        </nav>
+
+        <!-- links -->
+        <nav class="navbar navbar-expand-lg m-0  " id="main-navbar">
+          <div class=" d-flex justify-content-between gap-3">
+            <a class="navbar-brand custom-btn" href="#home">Home</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav  d-flex justify-content-between gap-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#process">Process</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <a class="navbar-brand custom-btn shadow-lg  bg-body-tertiary rounded" href="#contact" id="contact-btn">Contact</a>
+            <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+
+
+  <div data-bs-spy="scroll"  data-bs-spy="scroll"
+  data-bs-target="#main-navbar"
+  data-bs-smooth-scroll="true">
+ <!-- hero-about -->
+    <div class="hero-about pt-3 ">
+      <!-- hero-section -->
+      <div class="container profile-info " id="home">
+        <section class="hero-sec my-2  " style="width: 100%; height: 600px; ">
+          <div class="  d-flex justify-content-between  ">
+            <div class="row g-0 ">
+
+              <!-- left-side -->
+              <div class="col-md-8 d-flex flex-column gap-3 justify-content-between py-3 ">
+                <div class="card-body d-flex  flex-column justify-content-start gap-3">
+                  <h1 class="card-title display-4 fw-bold text-capitalize">Hello, I’m <br>Brooklyn Gilbert</h1>
+                  <p class="card-text fs-5" style="max-width: 600px;">I'm a Freelance <span
+                      style=" padding: 0 2px; background: linear-gradient(180deg, transparent 60%, #ffcdd2 60%);">UI/UX
+                      Designer</span> and
+                    <span
+                      style=" padding: 0 2px; background: linear-gradient(180deg, transparent 60%, #ffcdd2 60%);">Developer
+                    </span> based in London, England. I strives to build immersive and beautiful web applications
+                    through carefully crafted code and user-centric design..
+                  </p>
+                  <button type="button" style="max-width: 150px;" class="btn btn-primary  btn-lg  " id="say-hello">Say
+                    Hello!</button>
+
+                </div>
+
+
+                <div class="text-box d-flex justify-content-start  gap-2">
+                  <div class="box">
+                    <h3>15 Y.</h3>
+                    <p>Experience</p>
+                  </div>
+
+                  <div class="box">
+                    <h3>250+</h3>
+                    <p>Projects Completed</p>
+                  </div>
+
+                  <div class="box">
+                    <h3>58</h3>
+                    <p>Happy Clients</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- right-side -->
+              <div class="col-md-4">
+                <img src="assets/hero-sec.jpg" class="img-fluid rounded-start " alt="photo"
+                  style="height: 600px; width: 800px;">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
+
+      <!-- abou-me -->
+      <div class="about-me " id="about">
+        <div class="profile container bg-light shadow shadow-lg d-flex 
+       justify-content-center rounded  mb-5 p-5" id="about">
+
+          <div class=" card p-4  mx-auto  "
+            style="max-width: 1000px; border: none !important; background: transparent; ">
+            <div class=" row g-5 align-items-center ">
+              <!-- left-side -->
+              <div class="profile-pic rounded col-md-4">
+                <img src="assets/hero-sec.jpg" class="img-fluid rounded-start " alt="profile">
+                <div class="social-icons d-flex justify-content-center gap-0">
+                  <i class="bi bi-facebook btn fs-4 " style="color: #A33DFD;"></i>
+                  <i class="bi bi-linkedin btn fs-4" style="color: #A33DFD;"></i>
+                  <i class="bi bi-instagram btn fs-4" style="color: #A33DFD;"></i>
+                  <i class="bi bi-behance btn fs-4" style="color: #A33DFD;"></i>
+                  <i class="bi bi-github btn fs-4" style="color: #A33DFD;"></i>
+                </div>
+              </div>
+
+              <!-- right-side -->
+              <div class="col-md-8">
+                <div class="card-body  d-flex flex-column justify-content-between gap-3 ">
+                  <h2 class="card-title display-6 fw-bold text-capitalize">I am Professional User Experience Designer
+                  </h2>
+                  <p class="card-text fs-6 text-muted">I design and develop services for customers specializing creating
+                    stylish, modern websites, web services and online stores. My passion is to design digital user
+                    experiences</p>
+                  <p class="card-text fs-6 text-muted">I design and develop services for customers specializing creating
+                    stylish, modern websites, web services.</p>
+                  <div class="d-flex justify-content-start gap-4  ">
+                    <a href="#" class="btn btn-primary primary-color " id="my-project">My Projects</a>
+                    <a href="#" class="btn  " id="my-cv">
+                      Download My CV
+                      <i class="bi bi-cloud-arrow-down-fill text-primary-color"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+    <!-- work process -->
+    <section class="container-fluid  work-process  py-5 d-flex align-items-center " style="min-height: 800px;" id="process">
+
+      <div class="container">
+        <div class=" row justify-content-between g-4 my-5 align-items-center">
+          <!-- left-sec -->
+
+          <div class=" text  col-12 col-lg-4  ">
+            <div class="d-flex flex-column gap-3">
+              <h3 class="display-4 fw-bold">Work Process</h3>
+              <p class="text-muted">Driven by design and powered by code, I create digital interfaces that feel
+                intuitive and perform seamlessly. Every layout, animation, and component is crafted with intention —
+                merging usability with visual clarity,</p>
+              <p class="text-muted">I blend clean design with efficient code to build engaging, user-friendly web
+                experiences that stand out.</p>
+            </div>
+
+          </div>
+
+
+          <!-- right-side -->
+          <div class="cards col-12 col-lg-6 " id="card-side">
+            <div class="d-flex flex-column gap-3 justify-content-center">
+
+              <!-- row-1 -->
+              <div class="card-group d-flex justify-content-between gap-3">
+
+                <div class="card work-card p-3 border-0 d-flex flex-column gap-2 rounded mt-3">
+                  <i class="bi bi-clipboard-minus "></i>
+                  <div class="card-body d-flex flex-column gap-2 ">
+                    <h5 class="card-title fs-3 fw-bold">1. Research</h5>
+                    <p class="card-text text-muted">Design meets function in every pixel, blending clarity with
+                      intuitive motion.</p>
+                  </div>
+                </div>
+
+                <div class="card work-card d-flex border-0 flex-column gap-2 p-3 rounded mb-3">
+                  <i class="bi bi-graph-up"></i>
+                  <div class="card-body d-flex flex-column gap-2">
+                    <h5 class="card-title fs-3 fw-bold">2. Analyze</h5>
+                    <p class="card-text text-muted ">Crafting clean, thoughtful interfaces where form flows seamlessly
+                      into function and clarity.</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- row-2 -->
+              <div class="card-group d-flex justify-content-between gap-3">
+
+                <div class="card work-card border-0 d-flex flex-column gap-2 p-3 rounded mb-3">
+                  <i class="bi bi-pencil"></i>
+                  <div class="card-body d-flex flex-column ">
+                    <h5 class="card-title fs-3 fw-bold">3. Design</h5>
+                    <p class="card-text text-muted">I design seamless digital experiences with precision, purpose, and a
+                      touch of elegance</p>
+                  </div>
+                </div>
+
+                <div class="card work-card border-0 d-flex flex-column gap-2 p-3 rounded  mt-3">
+                  <i class="bi bi-laptop"></i>
+                  <div class="card-body d-flex flex-column ">
+                    <h5 class="card-title fs-3 fw-bold">4. Launch</h5>
+                    <p class="card-text text-muted">I craft digital products where thoughtful design meets
+                      performance-driven, responsive development.</p>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+
+
+    <!-- Portfolio -->
+    <section class="Portfolio my-5 p-3 d-flex flex-column justify-content-between align-items-center gap-4  " id="portfolio">
+
+      <div class="d-flex flex-column gap-2 text-center my-3 w-50">
+        <h2 class="display-4 fw-bold">Portfolio</h2>
+        <p class="text-muted">Here's a selection of my recent work, showcasing my skills in creating user-centric and
+          visually appealing interfaces.</p>
+
+      </div>
+
+      <!-- cards part -->
+      <div class="card-part">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card pb-3 ">
+              <img src="https://picsum.photos/200/100/?blur?1" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="fs-6  text-secondary">UI-UX DESIGN</p>
+                <h5 class="card-title fs-4 fw-bold">Product Admin Dashboard</h5>
+                <p class="card-text text-muted">I focus on crafting smooth, responsive interfaces that balance aesthetic
+                  appeal with practical functionality.</p>
+              </div>
+
+              <!-- <a class="icon-link text-decoration-none text-black border icon-link-hover case-study" href="#">
+     Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+       </svg>
+       </a> -->
+
+
+              <a href="#" class="btn icon-link icon-link-hover text-center d-flex  justify-content-center  case-study">
+                Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card pb-3 ">
+              <img src="https://picsum.photos/200/100/?blur?2" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="fs-6  text-secondary">UI-UX DESIGN</p>
+                <h5 class="card-title fs-4 fw-bold">Product Admin Dashboard</h5>
+                <p class="card-text text-muted">I focus on crafting smooth, responsive interfaces that balance aesthetic
+                  appeal with practical functionality.</p>
+              </div>
+
+              <!-- <a class="icon-link text-decoration-none text-black border icon-link-hover case-study" href="#">
+     Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+       </svg>
+       </a> -->
+
+
+              <a href="#" class="btn icon-link icon-link-hover text-center d-flex  justify-content-center  case-study">
+                Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card pb-3 ">
+              <img src="https://picsum.photos/200/100/?blur?3" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="fs-6  text-secondary">UI-UX DESIGN</p>
+                <h5 class="card-title fs-4 fw-bold">Product Admin Dashboard</h5>
+                <p class="card-text text-muted">I focus on crafting smooth, responsive interfaces that balance aesthetic
+                  appeal with practical functionality.</p>
+              </div>
+
+              <!-- <a class="icon-link text-decoration-none text-black border icon-link-hover case-study" href="#">
+     Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+       </svg>
+       </a> -->
+
+
+              <a href="#" class="btn icon-link icon-link-hover text-center d-flex  justify-content-center  case-study">
+                Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card pb-3 ">
+              <img src="https://picsum.photos/200/100/?blur?4" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="fs-6  text-secondary">UI-UX DESIGN</p>
+                <h5 class="card-title fs-4 fw-bold">Product Admin Dashboard</h5>
+                <p class="card-text text-muted">I focus on crafting smooth, responsive interfaces that balance aesthetic
+                  appeal with practical functionality.</p>
+              </div>
+
+              <!-- <a class="icon-link text-decoration-none text-black border icon-link-hover case-study" href="#">
+     Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+       </svg>
+       </a> -->
+
+
+              <a href="#" class="btn icon-link icon-link-hover text-center d-flex  justify-content-center  case-study">
+                Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card pb-3 ">
+              <img src="https://picsum.photos/200/100/?blur?5" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="fs-6  text-secondary">UI-UX DESIGN</p>
+                <h5 class="card-title fs-4 fw-bold">Product Admin Dashboard</h5>
+                <p class="card-text text-muted">I focus on crafting smooth, responsive interfaces that balance aesthetic
+                  appeal with practical functionality.</p>
+              </div>
+
+              <!-- <a class="icon-link text-decoration-none text-black border icon-link-hover case-study" href="#">
+     Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+       </svg>
+       </a> -->
+
+
+              <a href="#" class="btn icon-link icon-link-hover text-center d-flex  justify-content-center  case-study">
+                Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card pb-3 ">
+              <img src="https://picsum.photos/200/100/?blur?6" class="card-img-top" alt="image">
+              <div class="card-body">
+                <p class="fs-6  text-secondary">UI-UX DESIGN</p>
+                <h5 class="card-title fs-4 fw-bold">Product Admin Dashboard</h5>
+                <p class="card-text text-muted">I focus on crafting smooth, responsive interfaces that balance aesthetic
+                  appeal with practical functionality.</p>
+              </div>
+
+              <!-- <a class="icon-link text-decoration-none text-black border icon-link-hover case-study" href="#">
+     Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+       </svg>
+       </a> -->
+
+
+              <a href="#" class="btn icon-link icon-link-hover text-center d-flex  justify-content-center  case-study">
+                Case Study
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="more-projects">
+        <a class="btn " href="#" role="button">More Projects</a>
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- work together -->
+    <section class="container-fluid  my-2 py-5" style="background-color: #12002e; " >
+      <div
+        class="container work-together d-flex flex-column justify-content-between align-items-center  gap-4 text-center">
+        <h1 class="text-light display-4 fw-semibold mt-3">Do you have a Project Idea?<br> Let's discuss your project!
+        </h1>
+        <p style="color: rgba(255, 255, 255, 0.497); width: 600px; font-size: 18px; font-weight: 400;">I'm always open
+          to discussing new projects and creative ideas. Let's connect and build something amazing together.</p>
+        <button type="button" class="btn  btn-lg">Let's Work To Gether
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+
+    </section>
+
+
+
+
+    <!-- Blog -->
+    <section class="container-fluid blog  py-4" id="blog">
+      <div class="container d-flex flex-column justify-content-between gap-5  align-items-center py-5">
+
+        <!-- text -->
+        <div class="text d-flex flex-column gap-2 text-center justify-content-between ">
+          <h1 class="text-dark display-4 fw-bold ">Blog</h1>
+          <p class="text-secondary fs-5 ">Check out my recent blog posts where I share insights on
+            design <br>, development, and the latest industry trends.</p>
+        </div>
+
+        <!-- carousel -->
+        <div class="custom-carousel "   >
+
+          <div id="carouselExampleIndicators" class="carousel slide d-flex gap-5 justify-content-between " >
+            <!-- carousel-button -->
+            <div class="carousel-indicators   ">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active custom-btn border-0"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2" class="custom-btn border-0"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3" class="custom-btn border-0"></button>
+            </div>
+
+            <!-- carousel-slides -->
+            <div class="carousel-inner mb-5">
+
+              <!-- slide-1 -->
+              <div class="carousel-item active">
+
+              <!-- cards -->
+                <div class="card-group">
+                 <!-- card-1 -->
+                <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card1.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+                </div>
+               
+                <!-- card-2 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card2.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+
+                <!-- card-3 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card3.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+
+                <!-- card-4 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card4.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+                </div>
+               
+
+              </div>
+              
+            
+              <!-- slide-2 -->
+              <div class="carousel-item active">
+
+              <!-- cards -->
+                <div class="card-group">
+                 <!-- card-1 -->
+                <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card1.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+                </div>
+               
+                <!-- card-2 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card2.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+
+                <!-- card-3 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card3.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+
+                <!-- card-4 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card4.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+                </div>
+               
+
+              </div>
+
+              <!-- slide-3 -->
+              <div class="carousel-item active">
+
+              <!-- cards -->
+                <div class="card-group">
+                 <!-- card-1 -->
+                <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card1.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+                </div>
+               
+                <!-- card-2 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card2.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+
+                <!-- card-3 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card3.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+
+                <!-- card-4 -->
+                 <div class="card custom-card mx-2 rounded ">
+                  <img src="assets/blog-card4.jpg" class="card-img-top rounded" alt="image"
+                    style="max-width:300px ; max-height: 200px;">
+                  <div class="card-body">
+                    <p>22 oct, 2020 / 246 comments </p>
+                    <h5 class="card-title">Designing Engaging User Interfaces For M......</h5>
+                  </div>
+
+
+
+
+                </div>
+                </div>
+               
+
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+  <!-- What I do -->
+  <section class="container-fluid i-do   "
+    style="background-color: rgba(215, 215, 215, 0.253) !important; height: 800px; display: flex; align-items: center;" id="services">
+    <div class="container">
+      <div class=" row py-5  g-3 justify-content-between">
+        <!-- left-side -->
+        <div class="text d-flex flex-column gap-3 justify-content-center col-12  col-md-4">
+          <h1 class="text-dark display-4 fw-bold ">What I do?</h1>
+          <p class="text-secondary ">I specialize in designing user experiences, crafting
+            engaging interfaces, and building robust web applications that deliver value and usability.</p>
+          <p class="text-secondary ">My approach combines creativity and technical expertise
+            to deliver solutions that are both visually appealing and highly functional for users.</p>
+          <button type="button" class="btn  btn-lg">Say Hello!
+
+          </button>
+        </div>
+
+        <!-- right-side -->
+        <div class="cards col-12  col-md-6">
+          <!-- card-1 -->
+          <div class="card mb-3 border-0" style="max-width: 800px; padding: 14px 10px; ">
+
+            <div class="card-body ">
+              <h5 class="card-title fs-3 fw-bold">User Experience (UX)</h5>
+              <p class="card-text fs-6 text-muted">I design intuitive and enjoyable experiences by understanding user
+                needs,
+                conducting research, and creating wireframes and prototypes that enhance usability.</p>
+
+            </div>
+
+          </div>
+
+          <!-- card-1 -->
+          <div class="card mb-3 border-0" style="max-width: 800px; padding: 14px 10px; ">
+            <div class="card-body ">
+              <h5 class="card-title fs-3 fw-bold">User Interface (UI)</h5>
+              <p class="card-text fs-6 text-muted">I craft visually appealing and consistent interfaces, focusing on
+                layout, color, and typography to ensure a seamless and engaging user journey.</p>
+            </div>
+          </div>
+
+          <!-- card-3 -->
+          <div class="card mb-3 border-0" style="max-width: 800px; padding: 14px 10px; ">
+            <div class="card-body ">
+              <h5 class="card-title fs-3 fw-bold">Web Development</h5>
+              <p class="card-text fs-6 text-muted">I build responsive and high-performance web applications using
+                modern technologies, ensuring accessibility, scalability, and maintainability.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- down-part -->
+  <section class="container-fluid  p-5 d-flex flex-column gap-5 aligh-items-center"
+   style="background-color:rgba(215, 215, 215, 0.127) ;" id="contact">
+
+    <!-- our-Clients -->
+    <div class="container our-Clients  d-flex flex-column justify-content-between align-items-center gap-5 ">
+      <div class="text text-center d-flex flex-column gap-4 aligh-items-center">
+        <h1 class="text-dark display-4 fw-bold ">Happy Clients</h1>
+        <p class="text-secondary " style="max-width: 400px;">I've had the pleasure of working with a diverse range of
+          companies, from startups to
+          established brands.</p>
+      </div>
+
+      <div class=" container hstack  my-3 brands">
+        <div class="brand">
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-amazon"></i>
+          <i class="bi bi-spotify"></i>
+          <i class="bi bi-google"></i>
+          <i class="bi bi-dribbble"></i>
+          <i class="bi bi-medium"></i>
+
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-amazon"></i>
+          <i class="bi bi-spotify"></i>
+          <i class="bi bi-google"></i>
+          <i class="bi bi-dribbble"></i>
+          <i class="bi bi-medium"></i>
+
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-amazon"></i>
+          <i class="bi bi-spotify"></i>
+          <i class="bi bi-google"></i>
+          <i class="bi bi-dribbble"></i>
+          <i class="bi bi-medium"></i>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!-- Testimonial -->
+    <div
+      class="Testimonial  py-5 pb-5 d-flex flex-column gap-5 justify-content-between align-items-center text-center">
+      <h1 class="text-dark display-4 fw-bold ">Testimonial</h1>
+
+      <!-- carousel -->
+
+      <div id="carouselExampleDark" class="carousel custom-carousel carousel-dark slide ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active custom-btn"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+            class="custom-btn"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"
+            class="custom-btn"></button>
+        </div>
+
+        <div class="carousel-inner " style="max-width: 600px;">
+          <!-- slide-1 -->
+          <div class="carousel-item active d-flex flex-column gap-4" data-bs-interval="10000 ">
+            <p>Their expertise in UI/UX design helped us transform our digital presence and improve user engagement.
+            </p>
+            <caption>“The team demonstrated a deep understanding of our requirements and delivered a solution that was
+              both visually appealing and highly functional. Communication was clear throughout the project.”
+            </caption>
+            <h2 class="text-dark fs-4 fw-bold ">Ali Haider</h2>
+            <p>COO, XYZ Company</p>
+          </div>
+
+          <!-- slide-2 -->
+          <div class="carousel-item d-flex flex-column gap-4" data-bs-interval="2000">
+            <p>Their expertise in UI/UX design helped us transform our digital presence and improve user engagement.
+            </p>
+            <caption>“The team demonstrated a deep understanding of our requirements and delivered a solution that was
+              both visually appealing and highly functional. Communication was clear throughout the project.”
+            </caption>
+            <h2 class="text-dark fs-4 fw-bold ">Ali Haider</h2>
+            <p>COO, XYZ Company</p>
+          </div>
+
+          <!-- slide-3 -->
+          <div class="carousel-item d-flex flex-column gap-4">
+            <p>Their expertise in UI/UX design helped us transform our digital presence and improve user engagement.
+            </p>
+            <caption>“The team demonstrated a deep understanding of our requirements and delivered a solution that was
+              both visually appealing and highly functional. Communication was clear throughout the project.”
+            </caption>
+            <h2 class="text-dark fs-4 fw-bold ">Ali Haider</h2>
+            <p>COO, XYZ Company</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- contact -->
+    <section class="container-fluid   contact-me  " >
+     
+      <div class="container contact row g-3 align-items-center justify-content-evenly">
+     <!-- left-side -->
+      <div class="left-side d-flex  flex-column gap-4 col-12 col-md-5 ">
+        <div class=" d-flex flex-column justify-content-between gap-2">
+          <h2 class="fs-2 fw-bold">Let’s discuss your Project</h2>
+          <p class="text-secondary fs-5">I'm available for freelance work. Drop me a line if you have a project you
+            think I'd
+            be a good fit for.</p>
+        </div>
+
+        <!-- contact-icons -->
+        <div class="icons d-flex flex-column justify-content-between gap-3">
+          <div class="contact-icons d-flex justify-content-start align-items-center gap-2">
+
+            <i class="bi bi-geo-alt-fill custom-icons "></i>
+
+            <div class="text d-flex flex-column gap-1 justify-content-between ">
+              <p class="text-secondary m-0">Address :</p>
+              <h5 class="m-0">New Mexico ,3313</h5>
+            </div>
+
+          </div>
+
+          <div class="contact-icons d-flex justify-content-start align-items-center gap-2">
+
+            <i class="bi bi-envelope-fill custom-icons "></i>
+
+            <div class="text d-flex flex-column gap-1 justify-content-between ">
+              <p class="text-secondary m-0">My Email:</p>
+              <h5 class="m-0">mymail@mail.com</h5>
+            </div>
+
+          </div>
+
+          <div class="contact-icons d-flex justify-content-start align-items-center gap-2">
+
+            <i class="bi bi-telephone-fill custom-icons "></i>
+
+            <div class="text d-flex flex-column gap-1 justify-content-between ">
+              <p class="text-secondary m-0">Call Me Now:</p>
+              <h5 class="m-0">00-123 00000</h5>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- social media-icons -->
+
+        <div class="social-icons d-flex justify-content-start gap-1">
+          <i class="bi bi-facebook btn fs-6 " style="color: #A33DFD;"></i>
+          <i class="bi bi-linkedin btn fs-6" style="color: #A33DFD;"></i>
+          <i class="bi bi-instagram btn fs-6" style="color: #A33DFD;"></i>
+          <i class="bi bi-behance btn fs-6" style="color: #A33DFD;"></i>
+          <i class="bi bi-github btn fs-6" style="color: #A33DFD;"></i>
+        </div>
+
+
+
+      </div>
+
+
+      <!-- right-side -->
+      <div class="right-side col-12 col-md-6 d-flex flex-column  justify-content-between align-top gap-5 "
+        style="max-width: 600px;">
+        <div class="text  ">
+          <p class="text-secondary fs-5 m-0">I'm always open to discussing product design work or partnership
+            opportunities.</p>
+
+        </div>
+
+        <div class="form d-flex flex-column justify-content-between gap-2 ">
+          <input type="text" class="form-control border-0 custom-form px-2 py-3" placeholder="Name*"
+            aria-label=" text ">
+          <input type="email" class="form-control border-0 custom-form px-2 py-3" placeholder="Email*"
+            aria-label=" email ">
+          <input type="text" class="form-control border-0 custom-form px-2 py-3" placeholder="Location*"
+            aria-label="text ">
+
+          <div class="two-input d-flex justify-content-start gap-2 ">
+            <input type="number" class="form-control border-0 custom-form w-25 px-2 py-3" placeholder="Budget*"
+              aria-label=" number">
+            <input type="text" class="form-control border-0 custom-form w-75 px-2 py-3" placeholder="Subject*"
+              aria-label=" text ">
+          </div>
+
+          <input type="text" class="form-control border-0 custom-form px-2 py-3" placeholder="Message*"
+            aria-label=" name ">
+
+
+
+        </div>
+        <div class="custom-btn">
+          <button type="submit" class="btn text-light fw-bold fs-5 ">Submit
+            <i class="bi bi-arrow-right fw-bold fs-5"></i>
+          </button>
+        </div>
+      </div>
+      </div>
+      
+      
+    </section>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="container-fluid footer py-5 " id="contact">
+    <div class="container d-flex flex-column justify-content-between gap- ">
+
+      <div class="d-flex justify-content-between align-items-center pt-5">
+        <div class="logo ">
+          <a class="navbar-brand  " href="#">
+            <img src="assets/footer-logo.png" alt="Logo" width="200" height="100"
+              class="d-inline-block rounded-circle p-0 m-0">
+
+          </a>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid">
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+              style="color: white !important;">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse  navbar-collapse" id="footer-navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#process">Process</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contact">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div>
+          <p class="text-light m-0">Copyright © 2026 Picto</p>
+        </div>
+
+      </div>
+
+
+
+      <div class="text-center">
+        <p class="text-light">
+          Developed with ❤️ by
+          <a href="#" class="text-light">ThemeWagon</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  </div>
+   
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

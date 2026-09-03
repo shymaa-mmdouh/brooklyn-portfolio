@@ -1,0 +1,468 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.primary-color{
+ background-color: #A33DFD !important;   
+}
+
+/* header-part */
+.header{
+    /* background:linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 18%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.05) 62%, rgba(255, 255, 255, 0.16) 73%, rgba(255, 255, 255, 0.36) 74%, rgba(255, 255, 255, 0.2) 86%, rgba(255, 255, 255, 0.53) 99%);  */
+    z-index: 10000; 
+     height: 90px;
+     background-color: white;
+    
+}
+
+
+
+.navbar .custom-btn{
+    padding: 8px 14px;
+    font-weight: 600;
+    border-radius: 4px;
+   background-color: #A33DFD !important; 
+   color: white !important;
+}
+
+.navbar #contact-btn{
+    
+    transition: 1s;
+}
+.navbar #contact-btn:hover{
+    font-weight: 700;
+background-color: #55019e !important;
+transform: scale(1.1) !important;
+}
+
+.navbar .navbar-nav .nav-item a{
+    color: black !important;
+    font-size: 16px;
+  
+    font-weight: 500;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    
+} 
+
+.navbar .navbar-nav .nav-item a:hover{
+    color: #A33DFD !important;
+    background-color: rgb(215, 214, 214);
+   
+    
+   
+    transition: none;
+}
+
+
+
+
+/* arrow-go-up */
+.brooklyn-website .arrow .go-up i{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    font-size: 40px ;
+    color: #A33DFD;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.brooklyn-website .arrow .go-up i:hover{
+color: #55019e;
+}
+
+/* hero-about */
+.hero-about{
+ background:  linear-gradient(149deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.22) 18%, rgba(217, 181, 255, 0.56) 60%, rgba(192, 124, 252, 0.21) 79%, rgba(150, 255, 182, 0.36) 90%, rgba(150, 255, 182, 0.53) 100%);
+/* position: relative; */
+}
+/* hero-ec */
+
+.hero-sec #say-hello{
+   background-color: #A33DFD !important; 
+  transition: 0.5s;
+}
+
+.hero-sec #say-hello:hover{
+background-color: #55019e !important;
+transform: scale(1.1) !important;
+
+}
+
+
+
+.hero-sec .text-box .box{
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background:#b15ff431  ;
+padding: 10px 16px;
+}
+
+.hero-sec .text-box .box h3{
+font-size: 32px;
+color: rgb(69, 69, 69);
+font-weight: 700;
+padding: 0;
+}
+
+.hero-sec .text-box .box p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(120, 120, 120);
+    padding: 0;
+}
+
+
+ /* abou-me  */
+
+.about-me{
+    position: relative;
+    
+    min-height: 800px;
+   
+    
+ }
+.about-me .profile{
+    position: absolute;
+   bottom: -15%;
+   left: 50%;
+   transform: translateX(-50%);
+  
+}
+ 
+
+ .profile-pic{
+    position: relative;
+ }
+.profile-pic .social-icons{
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -20px;
+    box-shadow: 0 10px 10px rgba(56, 56, 56, 0.321);
+    left: 50%;
+    transform: translateX(-50%);}
+#my-project{
+    transition: 0.5s;
+}
+#my-project:hover{
+     font-weight: 700;
+background-color: #55019e !important;
+transform: scale(1.1) !important;
+}
+
+#my-cv{
+    /* box-shadow: 0 10px 10px rgba(56, 56, 56, 0.134); */
+    border: 0.5px solid rgb(202, 201, 201);
+    padding: 10px;
+
+}
+
+#my-cv:hover{
+   border: 1px solid #55019e; 
+   color: #55019e;
+}
+
+/* work process */
+.work-process{
+    background-color: rgba(215, 215, 215, 0.188) !important;
+}
+
+.work-process #card-side .card-group .work-card{
+    background-color: white;
+    cursor: pointer;
+}
+
+.work-process #card-side .card-group .work-card:hover{
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.156) ;
+}
+
+.work-process #card-side .card-group .work-card i{
+ color: #A33DFD !important;
+ font-size: 32px;
+ font-weight: bold;
+ background-color: #a33dfd1d;
+ width: 80px;
+ height: 80px;
+ border-radius: 4px;
+ margin: 10px 10px;
+ text-align: center;
+ padding: 10px 10px;
+ cursor: pointer;
+}
+
+.work-process #card-side .card-group .work-card i:hover{
+    background-color:#A33DFD  ;
+    color: white !important;
+}
+
+
+/* Portfolio */
+.Portfolio .card-part  .case-study{
+    max-width: 150px;
+    margin: 6px 16px;
+    padding: 10px 4px !important;
+    text-align: center !important;
+    border-color: rgba(168, 168, 168, 0.738) ;
+   
+    
+    cursor: pointer;
+   
+}
+
+
+.Portfolio .card-part  .case-study:hover {
+color: #A33DFD !important;
+border-color: #A33DFD;
+}
+
+/* .Portfolio .card-part  .case-study .icon {
+    display: inline-block;
+transition: 1s;
+}
+
+.Portfolio .card-part  .case-study:hover .icon {
+    transform:  translateX(8px);
+} */
+
+.Portfolio .more-projects .btn{
+    background-color: #A33DFD !important;
+    color: white;
+    font-weight: 700;
+    margin: 16px 0;
+    padding: 8px 14px;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 10px rgba(130, 130, 130, 0.271);
+}
+
+.Portfolio .more-projects .btn:hover{
+transform: scale(1.1);
+background-color: #55019e !important;
+}
+
+
+ /* work together */
+ .work-together button{
+   background-color: #A33DFD;
+   box-shadow: 0 5px 10px rgba(0, 0, 255, 0.221);
+   padding: 10px 16px;
+  text-align: center;
+  font-weight:700;
+   color: white;
+   transition: 1s ;
+ }
+
+ .work-together button:hover{
+    background-color: #55019e !important;
+    color: white !important;
+   box-shadow: 0 5px 10px rgba(0, 0, 255, 0.221);
+   transform: scale(1.1);
+ }
+
+
+ /* blog */
+ .blog .custom-carousel .custom-btn{
+    background-color: black;
+    border-radius: 12px;
+    width: 40px;
+    height: 5px;
+ }
+
+
+ 
+
+/* What I do */
+.i-do .text button{
+   background-color: #A33DFD;
+   box-shadow: 0 5px 10px rgba(0, 0, 255, 0.221);
+   padding: 10px 16px;
+   max-width: 200px;
+  text-align: center;
+  font-weight:700;
+   color: white;
+   transition: 1s ;
+ }
+
+.i-do .text button:hover{
+    background-color: #55019e !important;
+    color: white !important;
+   box-shadow: 0 5px 10px rgba(0, 0, 255, 0.221);
+   transform: scale(1.1);
+   
+ }
+
+ .i-do .cards .card:hover{
+    box-shadow: 0 10px 20px rgba(21, 21, 21, 0.308);
+   border-left: 4px solid #A33DFD !important;
+   border-radius: 8px;
+ }
+
+ /* down-part */
+ /* our-Clients  */
+ .our-Clients .brands{
+    
+    overflow: hidden;
+    width: 100%;
+ }
+
+ .our-Clients .brands .brand{
+    animation: scroll 20s linear infinite;
+    display: flex;
+    gap: 80px;
+    width: max-content;
+    justify-content: space-between;
+ }
+ .our-Clients .brand i{
+    font-size: 32px;
+    color: rgba(128, 128, 128, 0.49);
+   
+
+ }
+
+ @keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50% );
+    }
+ }
+
+
+ /* Testimonial  */
+ .Testimonial{
+    z-index: 9000;
+    padding-bottom: 100px;
+    
+ }
+.Testimonial .custom-carousel .carousel-indicators .custom-btn{
+    background-color: black !important;
+ }
+
+.Testimonial .custom-carousel{
+    height: 400px;
+}
+
+
+/* contact*/
+.contact-me{
+position: relative;
+margin: 0;
+min-height: 600px;
+
+
+}
+
+.contact-me .contact{
+position: absolute;
+background-color: white;
+top: 10%;
+left: 50%;
+transform: translateX(-50%);
+padding: 50px 10px;
+border-radius: 10px;
+z-index: 10;
+}
+
+.contact .left-side .contact-icons{
+    background-color: transparent;
+    max-width: 300px ;
+     height: 100px;
+    padding: 16px 14px;
+    border-radius: 4px;
+}
+.contact .left-side .contact-icons:hover{
+    background-color: white;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.149);
+}
+
+.contact .left-side .contact-icons:hover .custom-icons{
+    background-color: #A33DFD;
+    color: white;
+}
+.contact .left-side .contact-icons .custom-icons{
+    font-size: 24px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #55019e;
+    background-color: #a33dfd3f;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+
+}
+
+
+.contact .left-side .social-icons i:hover{
+background-color: #A33DFD !important;
+color: white !important;
+}
+
+
+.right-side .form .custom-form{
+    border-bottom: 2px solid rgba(123, 123, 123, 0.216) !important;
+   background-color: transparent !important;
+  
+
+}
+
+.right-side .form .custom-form:hover{
+     border-bottom: 2px solid #A33DFD !important;
+     color: #A33DFD !important;
+}
+
+.right-side .form  input:hover::placeholder{
+color: #A33DFD !important;
+}
+
+.contact .right-side  .custom-btn button{
+    background-color: #A33DFD;
+   box-shadow: 0 5px 10px rgba(0, 0, 255, 0.221);
+   padding: 6px 10px;
+   max-width: 150px;
+   border-radius: 8px;
+  text-align: center;
+  
+   
+   transition: 1s ;
+}
+.contact .right-side  .custom-btn button:hover{
+    background-color: #55019e !important;
+   
+   box-shadow: 0 5px 10px rgba(0, 0, 255, 0.221);
+   transform: scale(1.1);
+   
+}
+
+.contact .right-side .form  input{
+    padding: 15px 0;
+}
+
+
+/* footer */
+.footer{
+   
+  
+    background-color: #2A384B;
+}
+
+.footer .navbar .navbar-nav .nav-item a{
+color: white !important;
+}
+
+.footer .navbar .navbar-nav .nav-item a:hover{
+    background-color: transparent !important;
+    color: white !important;
+    text-decoration:underline;
+}
